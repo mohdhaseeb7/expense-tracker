@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 20px;
+    display: flex;
+    background-color: rgb(1, 16, 50);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 14px;
+    padding: 20px;
+    border: white;
+    border: 1px solid white;
+    border-radius: 12px;
+    background-color: rgb(12, 22, 46);
+}
+
+.container div{
+    width: 100%;
+}
+
+
+#expense-form {
+    display: flex;
+    flex-direction: column;
+    gap: 6px; 
+}
+
+#expense-form .form-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.form-row input, .form-row button {
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.form-row input {
+    color: white;
+    background-color: rgb(35, 35, 35);
+    flex: 1
+}
+
+.form-row button {
+    color: white;
+    background-color: purple;
+    flex: 0.5;
+}
+.form-row button:hover {
+    background-color: rgb(167, 0, 167);  
+    cursor: pointer; 
+}
+
+
+#expense-container, #expense-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+li{
+    list-style: none;
+    padding: 5px;
+    background-color: rgb(33, 33, 153);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 2px;
+    
+}
+
+li div{
+    display: flex;
+    flex-direction: column;
+}
+
+li span {
+    margin-right: 8px;
+}
+
+li button{
+    padding: 6px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: rgb(223, 0, 0);
+    color: white;
+}
+
+li button:hover{
+    background-color: red;
+}
