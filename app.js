@@ -36,9 +36,10 @@ function addExpense(event) {
         amount: formData.get('amount'),
         date: formData.get('date')
     }
-    console.log(expense);
+    // console.log(expense);
     expenseList.push(expense)
     expenseForm.reset()
+    saveExpenses()
     renderExpenses()
 }
 
